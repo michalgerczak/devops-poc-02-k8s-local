@@ -1,0 +1,22 @@
+# --- OS-specific "junk" files ---
+
+# macOS
+.DS_Store 
+
+# Linux
+*~
+*.swp
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# --- Project-specific files ---
+
+# Enviroment files
+.env
+
+# Terraform.cache and state 
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
